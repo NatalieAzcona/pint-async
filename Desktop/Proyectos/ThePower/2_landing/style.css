@@ -1,46 +1,95 @@
-* {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url("css/reset.css");
+@import url("css/variables.css");
+@import url("css/image-box.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 body {
-    font-family:'Bebas Neue';
-    background-color: white;
-    color: #333333;
+    font-family:'Bebas Neue', sans-serif;
+    background-color: var(--gray-00);
+    color: var(--gray-80);
     line-height: 1.6;
 }
 
 header {
     display:flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: white;
+    margin: 20px 50px;
+    background-color: var(--gray-00);
+    gap: 2em;
 }
 
-.logo {
+li {
+    list-style-type: none;
+    justify-content: space-between;  
+}
+
+h1, h2, h3 {
+    font-family: bebas;
+}
+
+.logo > img {
     width: 50px;
-    height: auto;
+    height: 50px;
 }
 
-.list ul {
-    padding-left: 0;
-    text-decoration: none;
+.list {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 0;
     color: #333333;
 }
 
+.list ul {
+    display: flex;
+    gap: 20 px;
+}
+
 .list li {
-    list-style-type: none;
-    padding-left: 0;
-    text-decoration: none;
+margin: 15px;
 }
 
 .list a {
     color: #333333;
     text-decoration: none;
+    font-size: 14px;
+    gap: 40px;
 }
 
 .list a:hover {
-    color: #1a1198;
+    color: var(--secondary);
+}
+
+.list-icon {
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.list-icon ul {
+    display:flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.list-icon img {
+    width: 20px;
+}
+
+.hero {
+    background-image: url(./assets/elements/fire.jpg);
+    padding: 50px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.hero > h1, .hero > p {
+    color: var(--gray-00);
 }
