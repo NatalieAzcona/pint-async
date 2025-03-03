@@ -1,39 +1,65 @@
 
-.slider-container {
-width: 90%;
-overflow-x: auto;
-white-space: nowrap;
-padding: 10px 0;
-scrollbar-width: thin;
+.slider {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: var(--gray-00);
+    color: var(--gray-00);
 }
 
-.slider-container::-webkit-scrollbar-thumb {
+
+.slider::-webkit-scrollbar-thumb {
     background-color: var(--gray-500); 
     border-radius: 10px;
 }
 
-.slider {
-    display: flex;
-    gap: 15px;
-    padding: 10px;
-    padding: 10px;
-    max-width: fit-content;
-    background-color: var(--tertiary);
-    color: var(--gray-00);
-}
 
-.card {
-    width: 250px;
-    background-color: var(--tertiary);
+.slider-card {
+    display: flex;
+    gap: 10px;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: var(--gray-20);
     border-radius: 10px;
     padding: 15px;
 }
 
-.card img {
-    width: 100%;
+.slider-img {
+    width: 250px;
+    height: 150px;
+    background-image: url('../assets/elements/burger-1.jpg');
+    background-position: center;
+	background-attachment: contain;
+	background-size: cover;
     border-radius: 10px;
 }
 
 
+.slider-img--1 {
+    background-image: url('../assets/elements/steak-bbq.jpg');
+}
+.slider-img--2 {
+    background-image: url('../assets/elements/fire-2.jpg');
+}
+.slider-img--3 {
+    background-image: url('../assets/elements/spices.jpg');
+}
+.slider-img--4 {
+    background-image: url('../assets/elements/bottle.jpg');
+}
+.slider-img--5 {
+    background-image: url('../assets/elements/roast-big-piece.jpg');
+}
+.slider-img--6 {
+    background-image: url('..//assets/elements/campfire.jpg');
+}
 
 

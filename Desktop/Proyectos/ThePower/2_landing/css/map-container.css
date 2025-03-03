@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     grid-gap: 10px;
-    padding: 20px;
+    padding: 50px;
     width: 100%;
     color: var(--gray-00);
     background-color: var(--gray-00);
@@ -12,10 +12,12 @@
 }
 
 .map {
-    background-image: url(../assets/elements/europe.jpg);
+    background-image: url(../assets/elements/madrid.jpg);
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    justify-content: center;
+    justify-content: center top;
     align-content: center;
-    padding: 100px;
+    padding: 175px;
     margin: auto;
 }

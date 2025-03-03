@@ -4,6 +4,7 @@
 @import url("css/image-box.css");
 @import url("css/map-container.css");
 @import url("css/slider-container.css");
+@import url("css/footer.css");
 @import url("css/buttons.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -15,9 +16,11 @@
     font-style: normal;
 }
 
-
 body {
-    font-family:'Bebas Neue', sans-serif;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     background-color: var(--gray-00);
     color: var(--gray-80);
     line-height: 1.6;
@@ -31,6 +34,7 @@ header {
     gap: 2em;
 }
 
+
 li {
     list-style-type: none;
     justify-content: space-between;  
@@ -42,16 +46,16 @@ h1 {
     text-shadow: 2px 2px 0px black;
 }
 
-h2 {
-    font-family: 'JurasicPark';
+h2, h3 {
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 42px;
-    text-shadow: 2px 2px 0px black;
+    text-shadow: 1px 1px 0px black;
 }
 
 h3 {
-    font-family: 'JurasicPark';
-    font-size: 36px;
-    text-shadow: 2px 2px 0px black;
+    font-size: 24px;
 }
 
 .logo > img {
