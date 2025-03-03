@@ -1,10 +1,19 @@
 @import url("css/reset.css");
 @import url("css/variables.css");
+@import url("css/hero.css");
 @import url("css/image-box.css");
-
+@import url("css/map-container.css");
+@import url("css/slider-container.css");
+@import url("css/buttons.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'JurasicPark';
+    src: url(./assets/fonts/Jurassic_Park.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 body {
@@ -27,8 +36,22 @@ li {
     justify-content: space-between;  
 }
 
-h1, h2, h3 {
-    font-family: bebas;
+h1 {
+    font-family: 'JurasicPark';
+    font-size: 84px;
+    text-shadow: 2px 2px 0px black;
+}
+
+h2 {
+    font-family: 'JurasicPark';
+    font-size: 42px;
+    text-shadow: 2px 2px 0px black;
+}
+
+h3 {
+    font-family: 'JurasicPark';
+    font-size: 36px;
+    text-shadow: 2px 2px 0px black;
 }
 
 .logo > img {
@@ -45,7 +68,7 @@ h1, h2, h3 {
     color: #333333;
 }
 
-.list ul {
+.list > ul {
     display: flex;
     gap: 20 px;
 }
@@ -80,16 +103,4 @@ margin: 15px;
 
 .list-icon img {
     width: 20px;
-}
-
-.hero {
-    background-image: url(./assets/elements/fire.jpg);
-    padding: 50px;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
-
-.hero > h1, .hero > p {
-    color: var(--gray-00);
 }

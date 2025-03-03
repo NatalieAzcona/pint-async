@@ -1,0 +1,39 @@
+
+.slider-container {
+width: 90%;
+overflow-x: auto;
+white-space: nowrap;
+padding: 10px 0;
+scrollbar-width: thin;
+}
+
+.slider-container::-webkit-scrollbar-thumb {
+    background-color: var(--gray-500); 
+    border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    padding: 10px;
+    max-width: fit-content;
+    background-color: var(--tertiary);
+    color: var(--gray-00);
+}
+
+.card {
+    width: 250px;
+    background-color: var(--tertiary);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
