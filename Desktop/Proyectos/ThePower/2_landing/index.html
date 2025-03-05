@@ -21,10 +21,13 @@
         <nav class="list">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">¿Hablamos?</a></li>
+                <li><a href="#">Catering</a></li>
+                <li><a href="#">Reservas</a></li>
             </ul>
         </nav>
+            <div class="list-icon-menu">
+                <img src="./assets/iconos/menu.png" alt="Menú">
+            </div>  
         <div class="list-icon">
             <ul>
                 <li> <a href="#"> <img src="./assets/iconos/user_18827849.png" alt="icono de usuario"></a></li>
@@ -34,6 +37,9 @@
     </header>
     
     <section class="hero">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="./assets/elements/videos/bbq_video.mp4" type="video/mp4">
+        </video>
         <h1 class="hero-title">JURASSIC * PAN</h1>
         <p class="hero-text">Solo para verdaderos velocirraptores</p>
     </section>
@@ -41,56 +47,72 @@
     <main>
         <div class="image-box-container">
             <div class="image-box image-box--1">
-                <h3 class="element-title">Hamburguesas</h3>
-                <button class="button_info">Ver más</button>
-                <div class="button-color">
-                    <button class="button-gray"></button>
-                    <button class="button-red"></button>
-                    <button class="button-blue"></button>
-                    <button class="button-black"></button>
+                <div class="element-title">
+                    <h3>Hamburguesas</h3>
+                    <p>Hechas a la brasa</p>
+                </div>
+                <div class="button-container"> 
+                    <button class="button-info">Ver más</button>               
+                    <div class="button-color">
+                        <button class="button-color-1"></button>
+                        <button class="button-color-2"></button>
+                        <button class="button-color-3"></button>
+                    </div>
                 </div>
             </div>
             <div class="image-box image-box--2">
-                <h3 class="element_title">Kebabs</h3>
-                <button class="button_info">Ver más</button>
-                <div class="button_color">
-                    <button class="button_gray"></button>
-                    <button class="button_red"></button>
-                    <button class="button_blue"></button>
-                    <button class="button_black"></button>
+                <div class="element-title">    
+                    <h3>Costillas</h3>
+                    <p>Con cocción lenta</p>
+                </div>
+                <div class="button-container"> 
+                    <button class="button-info">Ver más</button>               
+                    <div class="button-color">
+                        <button class="button-color-1"></button>
+                        <button class="button-color-2"></button>
+                        <button class="button-color-3"></button>
+                    </div>
                 </div>
             </div>    
             <div class="image-box image-box--3">
-                <h3 class="element_title">Bocadillos</h3>
-                <button class="button_info">Ver más</button>
-                <div class="button_color">
-                    <button class="button_gray"></button>
-                    <button class="button_red"></button>
-                    <button class="button_blue"></button>
-                    <button class="button_black"></button>
+                <div class="element-title">
+                    <h3>Bocadillos</h3>
+                    <p>De ternera, pavo o pollo</p>
+                </div>
+                <div class="button-container"> 
+                    <button class="button-info">Ver más</button>               
+                    <div class="button-color">
+                        <button class="button-color-1"></button>
+                        <button class="button-color-2"></button>
+                        <button class="button-color-3"></button>
+                    </div>
                 </div>
             </div>       
             <div class="image-box image-box--4">
-                <h3 class="element_title">Choripanes</h3>
-                <button class="button_info">Ver más</button>
-                <div class="button_color">
-                    <button class="button_gray"></button>
-                    <button class="button_red"></button>
-                    <button class="button_blue"></button>
-                    <button class="button_black"></button>
+                <div class="element-title">    
+                    <h3>Filetes</h3>
+                    <p>Con ensalada o patatas</p>
+                </div>
+                <div class="button-container"> 
+                    <button class="button-info">Ver más</button>               
+                    <div class="button-color">
+                        <button class="button-color-1"></button>
+                        <button class="button-color-2"></button>
+                        <button class="button-color-3"></button>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <section class="map-container">
+        <section class="container title-p">
             <h2>Encuentra tu restaurante</h2>
             <p>Agenda aquí antes de extinguirte de hambre</p>
-            <div class="map">
+        </section>
+        <div class="cover">
+            <div class="cover-content">
                 <h3>Descubre las opciones que tienes en Madrid</h3>
                 <button>Encuéntranos</button>
-            </div>
-        </section>
-
+            </div>    
+        </div> 
         <section class="slider">
                 <div class="slider-card">           
                     <h3>Carne de primera calidad</h3>
@@ -123,14 +145,17 @@
                     <button>Ver más</button>
                 </div>
         </section>
-        <section class="fullpic">
-            <h3>Ingredientes únicos</h3>
-            <p>Descubre la selección de ingredientes únicos y nuevos que incorporamos cada semana.</p>
+        <section class="cover article-a">
+            <div class="cover-content article-a-content">
+                <h3>¿Ya visitaste nuestra sección de postres?</h3>
+                <p>Cada mes incorporamos nuevos postres con ingredientes muy frescos</p>
+            </div>
         </section>
-        <section class="dividedpic">
-            <h3>Variedad de quesos</h3>
-            <p></p>
-            <a href="#">Ver más</a>
+        <section class="article-b">
+                <h3>Consulta nuestra sección sin alérgenos</h3>
+                <p>Opciones de postres para todos: sin lactosa, sin gluten y sin azúcares añadidos</p>
+                <a href="#">Ver más</a>
+                <img src="./assets/elements/bread.jpg" alt="variedad de panes">
         </section>
     </main>
     <footer>

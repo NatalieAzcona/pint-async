@@ -1,0 +1,32 @@
+.article-a {
+    background-image: url(../assets/elements/eclair.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.article-a-content {
+    position: absolute;
+}
+
+.article-a > h3, .article-a > p {
+    color: var(--gray-00);
+    text-shadow: 1px 1px 3px #333333;
+}
+
+.article-b {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+    color: var(--gray-00);
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.article-b > img {
+    width: 50%;
+}

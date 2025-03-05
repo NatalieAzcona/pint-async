@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'JurasicPark';
+    src: url(../assets/fonts/Jurassic_Park.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'JurasicPark';
+    font-size: 116px;
+    text-shadow: 2px 2px 0px black;
+}
+
+h2, h3 {
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.title-p {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    flex-direction: column;
+    color: var(--tertiary);
+    text-shadow: 1px 1px 3px #333333;
+}

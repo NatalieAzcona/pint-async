@@ -1,110 +1,12 @@
-@import url("css/reset.css");
-@import url("css/variables.css");
-@import url("css/hero.css");
-@import url("css/image-box.css");
-@import url("css/map-container.css");
-@import url("css/slider-container.css");
-@import url("css/footer.css");
-@import url("css/buttons.css");
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@font-face {
-    font-family: 'JurasicPark';
-    src: url(./assets/fonts/Jurassic_Park.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    background-color: var(--gray-00);
-    color: var(--gray-80);
-    line-height: 1.6;
-}
-
-header {
-    display:flex;
-    align-items: center;
-    margin: 20px 50px;
-    background-color: var(--gray-00);
-    gap: 2em;
-}
-
-
-li {
-    list-style-type: none;
-    justify-content: space-between;  
-}
-
-h1 {
-    font-family: 'JurasicPark';
-    font-size: 84px;
-    text-shadow: 2px 2px 0px black;
-}
-
-h2, h3 {
-    font-family: "Staatliches", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 42px;
-    text-shadow: 1px 1px 0px black;
-}
-
-h3 {
-    font-size: 24px;
-}
-
-.logo > img {
-    width: 50px;
-    height: 50px;
-}
-
-.list {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    gap: 40px;
-    padding: 0;
-    color: #333333;
-}
-
-.list > ul {
-    display: flex;
-    gap: 20 px;
-}
-
-.list li {
-margin: 15px;
-}
-
-.list a {
-    color: #333333;
-    text-decoration: none;
-    font-size: 14px;
-    gap: 40px;
-}
-
-.list a:hover {
-    color: var(--secondary);
-}
-
-.list-icon {
-    display:flex;
-    align-items: center;
-    margin-left: auto;
-}
-
-.list-icon ul {
-    display:flex;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-}
-
-.list-icon img {
-    width: 20px;
-}
+@import url("css/1.reset.css");
+@import url("css/2.variables.css");
+@import url("css/3.text.css");
+@import url("css/4.general.css");
+@import url("css/5.header.css");
+@import url("css/6.hero.css");
+@import url("css/7.image-box.css");
+@import url("css/8.container.css");
+@import url("css/9.slider.css");
+@import url("css/10.article.css");
+@import url("css/11.footer.css");
+@import url("css/12.responsive.css");

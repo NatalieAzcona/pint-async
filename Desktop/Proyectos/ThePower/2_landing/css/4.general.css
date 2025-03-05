@@ -1,0 +1,25 @@
+body {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--primary);
+    color: var(--gray-80);
+    line-height: 1.6;
+}
+
+button {
+    border-radius: 30px;
+    color: var(--primary);
+    background-color: var(--gray-00);
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    cursor: pointer;
+    font-size: 12px;
+    white-space: nowrap;
+}

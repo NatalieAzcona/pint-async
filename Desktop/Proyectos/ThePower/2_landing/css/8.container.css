@@ -1,0 +1,24 @@
+.container {
+    margin-bottom: 20px;
+}
+
+.cover {
+    display: flex;
+    background-image: url(../assets/elements/madrid.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cover-content {
+    height: 150px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.36);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0;
+}
+

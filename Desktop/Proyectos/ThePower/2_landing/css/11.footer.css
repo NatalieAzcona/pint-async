@@ -1,0 +1,78 @@
+footer {
+    font-family: "Lora", serif;
+}
+.footer-top {
+    background: var(--gray-40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-top p {
+    color: var(--gray-00);
+}
+.contact-button {
+    background: #ff6600;
+    color: var(--gray-00);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.footer-bottom {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.subscribe-form input {
+    padding: 10px;
+    width: 250px;
+}
+.subscribe-form button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.privacy-policy {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.socialmedia ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+.socialmedia img {
+    width: 30px;
+    filter: invert(1);
+}
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.footer-links .column h4 {
+    margin-bottom: 10px;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
