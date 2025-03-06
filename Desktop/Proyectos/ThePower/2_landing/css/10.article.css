@@ -1,32 +1,59 @@
 .article-a {
+    display: flex;
+    background-image: url(../assets/elements/eclair.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5% 10%;
+}
+
+.article-a-content {
+    position: relative;
+}
+
+.article-a-img {
     background-image: url(../assets/elements/eclair.jpg);
     background-position: center;
     background-size: cover;
     height: 400px;
     position: relative;
-}
-
-.article-a-content {
-    position: absolute;
-}
-
-.article-a > h3, .article-a > p {
-    color: var(--gray-00);
-    text-shadow: 1px 1px 3px #333333;
+    width: 100%;
+    display: none;
+    order: -1;
 }
 
 .article-b {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr; 
     width: 80%;
-    gap: 10px;
+    gap: 20px;
     color: var(--gray-00);
     margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
     padding: 150px 0;
 }
 
 .article-b > img {
-    width: 50%;
+    width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 7;
+}
+
+.article-b > h3 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.article-b > p {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+.article-b > a {
+    grid-column: 1 / 2;
+    grid-row: 4 / 6;
+    align-self: end;
 }

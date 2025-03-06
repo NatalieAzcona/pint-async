@@ -1,25 +1,26 @@
-footer {
-    font-family: "Lora", serif;
-}
-.footer-top {
-    background: var(--gray-40);
+.footer-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 3% 10% 3%;
+    gap: 10px;
 }
 
-.footer-top p {
-    color: var(--gray-00);
+.footer-top {
+    background: var(--gray-40);
 }
+
 .contact-button {
-    background: #ff6600;
+    background: var(--tertiary);
+    text-align: center;
     color: var(--gray-00);
     border: none;
-    padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
 }
+
+/*footer bottom*/
+
 .footer-bottom {
     background: black;
     color: white;
@@ -36,17 +37,11 @@ footer {
     width: 250px;
 }
 .subscribe-form button {
-    background: #ff6600;
+    background: var(--tertiary);
     color: white;
     border: none;
-    padding: 10px 15px;
-    cursor: pointer;
 }
-.privacy-policy {
-    display: block;
-    margin-top: 10px;
-    font-size: 12px;
-}
+
 .socialmedia ul {
     list-style: none;
     display: flex;

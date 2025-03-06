@@ -7,6 +7,15 @@
     font-style: normal;
 }
 
+body {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--gray-80);
+    line-height: 1.6;
+}
+
 h1 {
     font-family: 'JurasicPark';
     font-size: 116px;
@@ -24,6 +33,21 @@ h3 {
     font-size: 24px;
 }
 
+a {
+    color: var(--gray-00);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.article-a > h3, .article-a > p {
+    color: var(--gray-00);
+    text-shadow: 1px 1px 3px #333333;
+}
+
 .title-p {
     display: flex;
     width: 80%;
@@ -34,3 +58,8 @@ h3 {
     color: var(--tertiary);
     text-shadow: 1px 1px 3px #333333;
 }
+
+.footer-top p {
+    color: var(--gray-00);
+}
+

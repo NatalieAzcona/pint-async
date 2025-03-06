@@ -1,11 +1,5 @@
 body {
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     background-color: var(--primary);
-    color: var(--gray-80);
-    line-height: 1.6;
 }
 
 button {
@@ -22,4 +16,16 @@ button {
     cursor: pointer;
     font-size: 12px;
     white-space: nowrap;
+}
+
+button:hover {
+    background-color: var(--secondary);
+    color: white;
+}
+
+.list-icon-menu img:hover,
+.list-icon img:hover,
+.socialmedia img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
 }
