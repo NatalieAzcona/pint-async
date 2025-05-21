@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+
+.button {
+    font-size: 12px;
+    padding: 20px;
+    &--primary {
+        color: rgb(30, 204, 129);
+        background: rgb(162, 27, 27);
+        &:hover  {
+            background: yellow;
+        }
+    }
+    &--secondary {
+        color: white;
+        background: red;
+    }
+    &--tab {
+        font-size: 12px;
+        padding: 20px;
+        color: white;
+        background: red;
+    }
+
+
+    }

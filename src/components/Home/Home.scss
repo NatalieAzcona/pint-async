@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+
+
+.home-container{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: $action-secondary;
+}
