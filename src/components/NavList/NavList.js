@@ -14,7 +14,7 @@ export const NavList = () => {
         const li = document.createElement('li');
 
         const link = document.createElement('a');
-        link.className = 'nav-item';
+        link.className = 'nav-item  btn-secondary';
         link.href = item.link;
         link.textContent = item.name;
 

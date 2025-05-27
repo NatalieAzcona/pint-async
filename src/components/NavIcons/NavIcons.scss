@@ -1,3 +1,5 @@
+@use '../../styles/index' as *;
+
 .nav-icons {
     display: flex;
     list-style: none;
@@ -13,12 +15,14 @@
   .nav-icon-button {
     background: none;
     border: none;
-    font-size: 12px;
     cursor: pointer;
-    padding: 15px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
   
     &:hover {
-      background-color: #f0f0f0; 
+      background-color: $action-secondary; 
       border-radius: 50%;
     }
   }
@@ -29,4 +33,9 @@
     }
   }
   
+  .profile {
+    background-color: $background-tertiary;
+    border-radius: 50%;
+  }
+
   

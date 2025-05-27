@@ -7,16 +7,14 @@ export const NavIcons = () => {
     const items = [
         {emoji: '🔔', label: 'Notificaciones', className: 'hide-mobile'} ,
         {emoji: '💬', label: 'Comentarios', className: 'hide-mobile'},
-        {emoji: 'D', label: 'Perfil' }
+        {emoji: 'D', label: 'Perfil', className: 'profile'}
     ];
 
     items.forEach(item => {
         const li = document.createElement('li');
         li.className = 'nav-icon-item';
 
-        if (item.className) {
-            li.classList.add(item.className);
-        }    
+        li.classList.add(item.className);
 
         const button = document.createElement('button');
         button.className = 'nav-icon-button';

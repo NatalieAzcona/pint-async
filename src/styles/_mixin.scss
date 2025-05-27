@@ -16,7 +16,6 @@
     background-color: $bg-color;
     border: none;
     cursor: pointer;
-    user-select: none;
     transition: background-color 0.5s ease;
   
     &:hover {
@@ -29,9 +28,9 @@
   }
     
   .btn-primary {
-    @include button-style(#d32f2f, white, #b71c1c);
+    @include button-style($btn-primary-bg, $btn-primary-color, $btn-primary-hover-bg);
   }
   
   .btn-secondary {
-    @include button-style(#000000, white, #222222);
-  }
+    @include button-style($btn-secondary-bg, $btn-secondary-color, $btn-secondary-hover-bg);
+  }   
