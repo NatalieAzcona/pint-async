@@ -1,19 +1,29 @@
-@import '../../styles/variables.scss';
+@use '../../styles/index' as *;
 
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding: 20px;
+    justify-content: flex-start;
+    padding: 10px 20px;
     background-color: $background-base;
   
+    .search-container{
+      display: flex;
+      align-items: center;
+      background-color: $background-tertiary;
+      border-radius: 30px;
+      overflow: hidden;
+    }
+
     .search-input {
-      width: 200px;
+      flex: 1;
+      width: 100%;
+      max-width: 600px;
+      min-width: 150px;
       height: 25px;
       padding: 10px;
-      font-size: 1rem;
-      border-top-left-radius: 30px;
-      border-bottom-left-radius: 30px;
+      font-size: 12px;
+      border: none;
       background-color: $background-tertiary;
       outline: none;
       transition: border-color 0.3s;
@@ -24,12 +34,11 @@
     }
   
     .search-button {
-      width: 35px;
-      height: 50px;
-      padding: 10px;
-      font-size: 1rem;
-      border-top-right-radius: 30px;
-      border-bottom-right-radius: 30px;
+      width: 45px;
+      height: 45px;
+      padding: 0;
+      border: none;
+      font-size: 12px;
       cursor: pointer;
       background-color: $background-tertiary;
       transition: background-color 0.3s;

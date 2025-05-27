@@ -11,6 +11,9 @@ const Card = (imageData) => {
         card.className = 'card'
         card.style.backgroundImage = `url(${imageData.urls.regular})`;
         
+        const hoverInfo = CardHoverInfo({ likes: imageData.likes });
+        card.appendChild(hoverInfo);
+
         const cardInfo = document.createElement('div');
         cardInfo.className = 'card-info';
 

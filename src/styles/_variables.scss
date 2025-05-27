@@ -1,0 +1,41 @@
+$black: #000000;
+$white: #ffffff;
+
+
+$background-base: $white;
+$background-secondary: #cccccc;
+$background-tertiary: #b2b2b2f0;
+$text-primary: $black;
+$action-primary: #e63946; 
+$action-secondary: #0077cc;
+
+$border-1: #a8dadc;        
+$border-2: #b5ead7;      
+$border-3: #fff3b0; 
+$border-4: #f7c5cc;        
+$border-5: #e4c1f9;   
+
+// Sizes //
+$size-small: 8px;
+$size-medium: 12px;
+
+
+// Border Radius //
+$border-radius-button: 30px;
+
+
+// Button //
+$btn-primary-bg: #d32f2f;
+$btn-primary-hover-bg: #b71c1c;
+$btn-primary-color: $white;
+
+$btn-secondary-bg: $black;
+$btn-secondary-hover-bg: #222222;
+$btn-secondary-color: $white;
+
+$btn-height: 36px;
+$btn-padding-horizontal: 16px;
+$btn-border-radius: $border-radius-button;
+
+$btn-font-size: 14px;
+$btn-font-weight: 500;

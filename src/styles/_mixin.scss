@@ -1,0 +1,37 @@
+@use './variables' as *;
+
+@mixin button-style($bg-color, $color, $hover-bg-color) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: $btn-height;
+    padding: 0 $btn-padding-horizontal;
+    border-radius: $btn-border-radius;
+    font-size: $btn-font-size;
+    font-weight: $btn-font-weight;
+    font-family: inherit;
+  
+    color: $color;
+    background-color: $bg-color;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.5s ease;
+  
+    &:hover {
+      background-color: $hover-bg-color;
+    }
+  
+    &:focus {
+      box-shadow: 0 0 0 2px rgba($bg-color, 0.2);
+    }
+  }
+    
+  .btn-primary {
+    @include button-style(#d32f2f, white, #b71c1c);
+  }
+  
+  .btn-secondary {
+    @include button-style(#000000, white, #222222);
+  }

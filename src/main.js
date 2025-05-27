@@ -1,4 +1,4 @@
-import './styles/main.scss'
+import './styles/index.scss'
 import { Header } from './components/Header/header';
 import Home from './components/Home/Home';
 import printImages from './components/utils/printImages';

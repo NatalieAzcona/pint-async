@@ -12,9 +12,9 @@ export const NavList = () => {
 
     items.forEach(item => {
         const li = document.createElement('li');
-        li.className = 'nav-item';
 
         const link = document.createElement('a');
+        link.className = 'nav-item';
         link.href = item.link;
         link.textContent = item.name;
 

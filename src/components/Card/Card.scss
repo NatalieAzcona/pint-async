@@ -1,7 +1,7 @@
-@import '../../styles/variables.scss';
+@use '../../styles/index' as *;
 
 .images-container {
-  columns: 5 300px;
+  columns: 5 260px;
   background: white;
   min-height: 100vh;
   column-gap: 20px;
@@ -12,7 +12,7 @@
 .card-container {
   position: relative;
   break-inside: avoid;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   width: 100%;
   text-align: center;
 }
@@ -31,15 +31,15 @@
 }
 
 .card-container:nth-child(3n + 1) .card {
-  height: 400px;
+  height: 480px;
 }
 
 .card-container:nth-child(3n + 2) .card {
-  height: 300px;
+  height: 350px;
 }
 
 .card-container:nth-child(3n + 3) .card{
-  height:150px;
+  height:200px;
 }
 
 .card-info {

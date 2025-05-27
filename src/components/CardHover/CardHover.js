@@ -4,26 +4,28 @@ import './CardHover.scss'
 export const CardHoverInfo = (data) => {
     const divHover = document.createElement('div');
     divHover.className = 'card-hover-info';
-  
-    const visitButton = document.createElement('button');
-    visitButton.className = 'visit-button';
-    visitButton.textContent = 'Visitar';
+
+    const shareContainer = document.createElement('div');
+    shareContainer.className = 'share-container';
   
     const likesE = document.createElement('p');
     likesE.className = 'card-likes';
     likesE.textContent = `${data.likes} ❤️`;
   
-    const cameraContainer = document.createElement('div');
-    cameraContainer.className = 'camera-container';
-  
     const cameraIcon = document.createElement('span');
     cameraIcon.className = 'camera-icon';
     cameraIcon.textContent = '📸';
+
+    const visitButton = document.createElement('button');
+    visitButton.className = 'btn-primary';
+    visitButton.textContent = 'Visitar';
+
+    const breakLine = document.createElement('br');
   
-    cameraContainer.append(cameraIcon);
+    shareContainer.append(cameraIcon, likesE);
   
-    divHover.append(visitButton, likesE, cameraContainer);
-  
+    divHover.append(shareContainer, visitButton, breakLine);
+
     return divHover;
   };
   
