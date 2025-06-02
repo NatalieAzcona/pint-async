@@ -7,7 +7,7 @@ const app = document.querySelector('#app')
 
 Header();
 const home = Home();
-app.append(Home());
+app.append(home);
 
 document.addEventListener('DOMContentLoaded', () => {
     printImages();
