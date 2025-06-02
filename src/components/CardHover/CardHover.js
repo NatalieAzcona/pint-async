@@ -9,7 +9,7 @@ export const CardHoverInfo = (data) => {
     shareContainer.className = 'share-container';
   
 
-    //likes 
+    //likes// 
     const likesE = document.createElement('div');
     likesE.className = 'card-likes';
     
@@ -23,13 +23,13 @@ export const CardHoverInfo = (data) => {
     
     likesE.append(likeIcon, likeCount);
 
-    //Camera
+    //Camera//
   
     const cameraIcon = document.createElement('span');
     cameraIcon.className = 'camera-icon';
     cameraIcon.textContent = '📸';
 
-    //visitButton
+    //visitButton//
 
     const visitButton = document.createElement('button');
     visitButton.className = 'btn-primary';

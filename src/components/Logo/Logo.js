@@ -3,7 +3,7 @@ import './Logo.scss';
 
 export const Logo = () => {
     const link = document.createElement('a');
-    link.href = '#'; 
+    link.href = '/'; 
     link.className = 'logo';
 
     const logo = document.createElement('img');

@@ -44,4 +44,17 @@
       transition: background-color 0.3s;
     }
   }
-  
+
+  .message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: $btn-primary-hover-bg; 
+    color: $btn-primary-color;
+    border-radius: 12px;
+    font-size: $size-medium;
+    gap: 20px;
+    max-width: 420px;
+    margin: auto;
+  }

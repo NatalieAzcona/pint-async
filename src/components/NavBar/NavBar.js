@@ -15,7 +15,8 @@ export const NavBar = () => {
     searchInput.placeholder = 'Buscar...'
     searchInput.addEventListener('keydown', async (e) => {
         if(e.key === 'Enter') {
-            await printImages(e.target.value)
+            await printImages(e.target.value);
+            searchInput.value = '';
         }
     })
 
@@ -24,6 +25,7 @@ export const NavBar = () => {
     searchButton.textContent = '🔎'
     searchButton.addEventListener('click', async () => {
         await printImages(searchInput.value);
+        searchInput.value = '';
     })
 
     searchContainer.append(searchButton, searchInput);
